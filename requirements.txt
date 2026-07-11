@@ -1,5 +1,5 @@
-GitPython
-networkx
 numpy
 pygit2
 pyside6
+fitz
+pillow

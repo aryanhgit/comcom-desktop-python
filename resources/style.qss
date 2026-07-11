@@ -1,0 +1,90 @@
+* {
+    font-family: "Inter", "SF Pro Display", "Segoe UI", "Ubuntu", sans-serif;
+}
+
+#centralWidget {
+    background-color: #f5f5f7;
+}
+
+#topBar, #favoritesBar {
+    background-color: #f5f5f7;
+}
+
+#searchField {
+    background-color: #ffffff;
+    border: 1px solid #d2d2d7;
+    border-radius: 10px;
+    padding: 8px 14px;
+    font-size: 14px;
+    color: #1d1d1f;
+}
+
+#searchField:focus {
+    border: 1px solid #0071e3;
+}
+
+#addFolderButton, #settingsButton {
+    background-color: #ffffff;
+    border: 1px solid #d2d2d7;
+    border-radius: 10px;
+    padding: 8px 14px;
+    font-size: 13px;
+    color: #1d1d1f;
+    margin-left: 10px;
+}
+
+#addFolderButton:hover, #settingsButton:hover {
+    background-color: #f0f0f2;
+}
+
+#favoritesToggle {
+    background-color: transparent;
+    border: none;
+    color: #6e6e73;
+    font-size: 13px;
+    font-weight: 600;
+    padding: 4px 0px;
+}
+
+#favoritesToggle:checked {
+    color: #ff9f0a;
+}
+
+#libraryScroll {
+    border: none;
+    background-color: #f5f5f7;
+}
+
+#coverTile {
+    background-color: transparent;
+}
+
+#coverImage {
+    background-color: #e8e8ed;
+    border-radius: 10px;
+    color: #86868b;
+    font-size: 12px;
+}
+
+#coverTitle {
+    font-size: 13px;
+    font-weight: 500;
+    color: #1d1d1f;
+}
+
+#favoriteButton {
+    background-color: rgba(0, 0, 0, 0.45);
+    color: #ffd60a;
+    border: none;
+    border-radius: 14px;
+    font-size: 14px;
+}
+
+#favoriteButton:hover {
+    background-color: rgba(0, 0, 0, 0.65);
+}
+
+#emptyState {
+    color: #86868b;
+    font-size: 15px;
+}

@@ -1,0 +1,13 @@
+[Desktop Entry]
+Name=comcom
+GenericName=Comic Book Viewer
+Comment=Reading comics
+Exec=comcom
+Terminal=false
+Type=Application
+MimeType=application/x-cbz;application/x-cbr;application/x-cbt;application/x-zip;application/x-rar;application/x-tar;
+Icon=comcom
+Categories=Graphics;Viewer;
+Keywords=comic;viewer;reader;
+Encoding=UTF-8
+StartupNotify=false

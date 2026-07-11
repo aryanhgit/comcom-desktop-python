@@ -3,7 +3,7 @@ from PySide6.QtWidgets import (
     QApplication, QWidget, QVBoxLayout, QListWidget, QLabel, QLineEdit, QListWidgetItem
 )
 from PySide6.QtGui import QIcon
-import resources_rc
+import src.widgets.resources_rc as resources_rc
 
 class Sidebar(QWidget):
     """Sidebar Widget: Toggle"""
